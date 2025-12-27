@@ -13,28 +13,28 @@ while True:
         if c=="+":
                 print(f"performing addition  {a}+{b}:",end='')
                 print(a+b)
-                
+                count=+1
                 
         elif c=="-":
                 print(f"performing subtraction  {a}-{b}:",end='')    
                 print(a-b)
-                
+                count+=1
 
         elif c=="*":
                 print(f"performing multiplication {a}*{b}:",end='')    
                 print(a*b)
-                
+                count+=1
         elif c=="/":
                 if b ==0:
                         print("error occured,not divisible by 0") 
                 else:
                         print(f"performing divison {a}/{b}:",end='')
                         print(a/b)
-                        
+                       
         elif c=="%":
                 print(f"performing modulo operator {a}%{b}:",end='')
                 print(a%b) 
-                
+              
         
                 
  
